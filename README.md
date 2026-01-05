@@ -141,7 +141,7 @@ Bash
 
 输入：ssh -R 80:localhost:8501 serveo.net
 
-看到绿色的链接出现： Forwarding HTTP traffic from https://4995c94d8fbcdd77-58-248-26-212.serveousercontent.com点击即可
+看到绿色的链接出现，点击即可
 ```
 
 启动成功后，访问终端显示的本地链接即可使用。
