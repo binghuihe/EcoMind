@@ -56,8 +56,9 @@ def load_resources():
     print("🚀 正在加载模型...")
     # 1. 加载模型
     model, tokenizer = FastVisionModel.from_pretrained(
-        "./Qwen2-VL-4bit",
+        "/home/hui/ocr_gb/Qwen2-VL-4bit",
         load_in_4bit=True,
+        local_files_only=True,
     )
     # 加载 LoRA
     model = PeftModel.from_pretrained(model, "qwen2_vl_garbage_finetune_full")
